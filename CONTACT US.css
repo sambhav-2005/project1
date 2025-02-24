@@ -1,0 +1,173 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "ff-seria-sans", sans-serif;
+    font-style: normal;
+}
+
+
+.firstpage {
+    background-image: url(p3-title-img-1.jpg);
+    background-attachment: fixed;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.bg {
+    background-color: rgb(0, 255, 255);
+}
+
+.logo {
+    position: absolute;
+    height: auto;
+    top: 3px;
+    left: 5px;
+}
+
+
+ul {
+    padding: 20px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+ul li {
+    list-style: none;
+    padding: 20px;
+    font-size: 25px;
+}
+
+ul li a {
+    color: rgb(249, 243, 243);
+    text-decoration: none;
+}
+
+li a:hover {
+    text-decoration: underline;
+}
+
+
+
+.heading {
+    text-align: center;
+    color: white;
+    font-size: 40px;
+    margin: 120px;
+}
+
+.myflex {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.box {
+    width: 50vw;
+    margin: 20px;
+    padding:10px;
+}
+button{
+    padding: 5px;
+}
+.flexbox {
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+}
+
+.flexbox div {
+    width: 30vw;
+    height: 50vh;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 20px;
+    background-color: rgb(255, 255, 255);
+}
+
+label {
+    font-size: 30px;
+    margin-right: 4px;
+}
+
+.button {
+    text-align: center;
+    border-radius: 10px;
+    background-color: burlywood;
+    align-self: center;
+    margin-left: 10vw;
+    margin-top: 6vh;
+    font-size: 20px;
+}
+
+.button:hover {
+    background-color: rgb(209, 154, 81);
+}
+
+footer {
+    background-color: rgb(36, 36, 36);
+    text-align: center;
+}
+
+footer p {
+    color: white;
+    font-size: 2em;
+}
+
+.footer {
+    color: white;
+    background-image: url(footer-top-img-1.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+    margin-top: 20px;
+    text-align: center;
+    padding: 23px;
+}
+
+.context p {
+    font-size: 22px;
+    padding: 44px 25px;
+}
+
+.context input {
+    background-color: rgba(0, 0, 0, 0);
+    color: white;
+    padding: 18px;
+    margin-top: 15px;
+}
+
+
+.flexing {
+    display: flex;
+    flex-direction: row;
+    height: 200px;
+    background-color: rgb(32, 31, 31);
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 15px;
+}
+
+.flexing div a {
+    text-decoration: none;
+    color: white;
+
+}
+
+.flexing div a:hover {
+    text-decoration: underline;
+}
+
+.mail_box {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
